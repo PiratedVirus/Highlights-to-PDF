@@ -1,4 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <div style="padding: 30px; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 18px;" class="summary">
+        <br>
+        <br>
     <p class="cont">
         Whatever be the situation, we are always giving priority to the older process. (we make all resource available
         to oldest process) ⇒ No Deadlock.  If a process Pi requests then there are finite number of processes which
@@ -1236,4 +1252,25 @@
                 
     Difference between const char *p, char * const p and const char * c... • geeksforgeeks.org
             </a><br>
+
+            </div>
+            
+    </body>
+            
+    <script>
+
+                // Famous script for srawling
+                $foot = $('.feedItem :nth-child(3)'); $child = $($foot).find('a.article-detail');
+
+                $high = $('.feedItem :nth-child(2)'); $content = $($high).find('span.content');
+                $link = $($high).find('a.highlight-link');
+
+
+                for ($i = 0; $i < $content.length; $i++) {
+                    console.log("<p class=\"cont\">" + $content[$i].textContent + "</p><br> <a src=\" " + $link[$i].dataset.articleUrl + "\">" + $child[$i].text + "</a><br>");
+
+                }
+    </script>
+            
+</html>
            
