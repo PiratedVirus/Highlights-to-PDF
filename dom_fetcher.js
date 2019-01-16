@@ -6,7 +6,7 @@
     $link = $($high).find('a.highlight-link');
 
 
-                    for ($i = 0; $i < $content.length; $i++) {
+    for ($i = 0; $i < $content.length; $i++) {
         console.log("<p class=\"cont\">" + $content[$i].textContent + "</p><br> <a src=\" " + $link[$i].dataset.articleUrl + "\">" + $child[$i].text + "</a><br>");
         // For  future ref: Just Copy and paste output of console to VS Code, manipulate few arrangments, Save as HTML n then convert webpage into PDF. 
     }
